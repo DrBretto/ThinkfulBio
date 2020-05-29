@@ -5,6 +5,11 @@ body {
   background-color: #000000
 }
 
+div {
+	background-color: #111111;
+
+}
+
 h1, h2, p {
 	color: #003933;
 	font-family: 'Times New Roman', serif;
