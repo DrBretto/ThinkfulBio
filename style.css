@@ -5,45 +5,14 @@ body {
   background-color: #000000
 }
 
-div {
-	background-color: #111111;
 
-}
 
 h1, h2, p {
-	color: #000000;
+	color: #ffffff;
 	font-family: 'Times New Roman', serif;
 }
 
 
-
-/*Code Requirements
-
-Build your page from scratch (no template usage)
-Utilize semantic, valid markup comprised of the following:
-
-
-Page Title
-
-Include the following HTML items
-
-----Containers for: header, main, and footer.
-----Text Headings & Paragraphs
-----Images (with appropriate alt tag descriptions)
-Bulleted List of 3 or more items, both
-Ordered
-Unordered
-At least 3 links; either:
-image
-text
-
-At least one page divider
-All HTML & CSS code must be commented.
-Text link styles different than default.
-All of the HTML elements should be styled with CSS to create a coherent web page including:
-
-Google Fonts for all text.
-Background images/colors
 
 
 
