@@ -1,5 +1,14 @@
 <!DOCTYPE css>
 
+
+body {
+  background-image: url('images/background.jpg');
+  background-repeat: no-repeat;
+}
+
+
+
+
 /*Code Requirements
 
 Build your page from scratch (no template usage)
