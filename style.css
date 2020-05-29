@@ -5,8 +5,8 @@ body {
   background-color: #000000
 }
 
-h1, h2 {
-	color: #403933;
+h1, h2, p {
+	color: #003933;
 	font-family: 'Times New Roman', serif;
 }
 
