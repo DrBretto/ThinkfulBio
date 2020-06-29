@@ -19,12 +19,12 @@ p { /*overrrides for all basic text*/
 
 
 h1{ /*overrides for different headlines*/
-	font-size: 32
+	font-size: 32;
 	text-align: center
 }
 
 h3{ /*overrides for different headlines*/
-	font-size: 24
+	font-size: 24;
 	text-align: right;
  }
 
@@ -39,4 +39,13 @@ a:hover { /*makes link text red if hovered over, mostly to satisfy requirements*
   color: #ff0000;
 }
 
+.bg {
+	display: flex;
+	background-color: #000000;
+}
+
+.clip {
+flex: a1;
+flex-direction: row;
+}
 
