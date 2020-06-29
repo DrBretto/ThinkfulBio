@@ -20,12 +20,12 @@ p { /*overrrides for all basic text*/
 
 h1{ /*overrides for different headlines*/
 	font-size: 32;
-	text-align: center
+	text-align: center;
 }
 
 h3{ /*overrides for different headlines*/
 	font-size: 24;
-	text-align: right;
+	text-align: center;
  }
 
 div { /*borders around the youtube videos.*/ 
