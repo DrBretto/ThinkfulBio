@@ -1,51 +1,59 @@
-
-body { /*background stuff*/
-	background-image: url("images/background.jpg");
-	background-repeat: no-repeat;
-	background-color: #000000
+body {
+    /*background stuff*/
+    background-image: url("images/background.jpg");
+    background-repeat: no-repeat;
+    background-color: #000000
 }
 
-
-h1, h2, h3, p, ul, ol { /* common perameters for all sections so I don't have to repeat*/
-	color: #fffffe;
-	font-family: 'Times New Roman', serif;
-
+h1,
+h2,
+h3,
+p,
+ul,
+ol {
+    /* common perameters for all sections so I don't have to repeat*/
+    color: #fffffe;
+    font-family: 'Times New Roman', serif;
 }
 
-p { /*overrrides for all basic text*/
-	font-size: 16;
-	text-align: left
+p {
+    /*overrrides for all basic text*/
+    font-size: 16;
+    text-align: left
 }
 
-
-h1{ /*overrides for different headlines*/
-	font-size: 32;
-	text-align: center;
+h1 {
+    /*overrides for different headlines*/
+    font-size: 32;
+    text-align: center;
 }
 
-h3{ /*overrides for different headlines*/
-	font-size: 24;
-	text-align: center;
- }
-
-div { /*borders around the youtube videos.*/ 
-	border-style: solid;
-	height: auto;
-	margin: 10px;
-	padding: 10px; /*random arbitray values to satisfy requirements*/
+h3 {
+    /*overrides for different headlines*/
+    font-size: 24;
+    text-align: center;
 }
 
-a:hover { /*makes link text red if hovered over, mostly to satisfy requirements*/
-  color: #ff0000;
+div {
+    /*borders around the youtube videos.*/
+    border-style: solid;
+    height: auto;
+    margin: 10px;
+    padding: 10px;
+    /*random arbitray values to satisfy requirements*/
+}
+
+a:hover {
+    /*makes link text red if hovered over, mostly to satisfy requirements*/
+    color: #ff0000;
 }
 
 .bg {
-	display: flex;
-	background-color: #000000;
+    display: flex;
+    background-color: #000000;
 }
 
 .clip {
-flex: a1;
-flex-direction: row;
+    flex: 1;
+    align-items: center;
 }
-
