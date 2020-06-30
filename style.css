@@ -51,6 +51,7 @@ a:hover {
 .bg {
     display: flex;
     background-color: #000000;
+    justify-content: space-evenly;
 }
 
 .clip {
