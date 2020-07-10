@@ -39,16 +39,19 @@ a:hover {
     color: #ff0000;
 }
 
-.bg {
-    display: flex;
-    background-color: #000000;
-    justify-content: space-evenly;
+.clip {
+    background-color: black;
 }
 
-.clip {
-    flex: 1;
+.projects {
+    display: flex;
     align-items: center;
-}
+ }
+
+ iframe {
+    width: 100%;
+ }
+
 
 header nav {
     display: flex;
@@ -68,6 +71,17 @@ header nav ul li a {
     list-style: none;
 }
 
+.bg {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.bg {
+    display: flex;
+    width: 100%;
+}
+
 @media all and (min-width: 600px) {
     /*for responsive nav bar, desktop*/
     header {
@@ -78,6 +92,9 @@ header nav ul li a {
     }
     header nav ul li a:hover {
         color: #bdbdbd;
+    }
+    iframe {
+        width: 50%;
     }
 }
 
